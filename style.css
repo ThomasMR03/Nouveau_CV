@@ -1,0 +1,20 @@
+article {
+	border: solid 2px black;
+}
+.navbar {
+ /* position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent; */
+}
+.navbar-inverse {
+ /* background-color: #f8f8f8;
+  border-color: #e7e7e7; */
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	background-color: #CECECE;

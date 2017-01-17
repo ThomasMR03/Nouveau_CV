@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" type="text/css" href="style.css"> <!-- Link CSS -->
+<link href="css/bootstrap.css" rel="stylesheet"> <!-- Link Bootstrap -->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Mon CV Web">
+<meta name="keywords" content="CV Web Codeur Développeur Candidature">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>N_CV</title>
+</head>
+<body onLoad=" banniere();" onUnload="clearTimeout(ban)" bgcolor="#FFFFFF"> <!-- Active mon JS -->
+	<div class="container"> <!--  Début de corps de la plage -->
+ 		<div class="row"> <!--   Chargement de la grille par le biais de la creation d'une ligne-->
+			<article>
+				<header>
+					<div class=".col-md-12"> <!-- 4 colonne -->
+						<h1 class="text-center">Candidature Codeur/Développeur Web</h1>
+					</div>
+				</header>
+				<div class=".col-md-12">
+					<p class="text-center">MILLIEN Thomas </br> 21 Ans </br> 6 rue Anna Marly 03400 YZEURE </br> 06.03.98.39.90 </br> thomas.face03@gmail.com </p>
+				</div>
+				<form name="formBan">
+					<input type="text" name="Fbanniere" size="50">
+				</form>
+			</article>
+
+		<div class="navbar navbar-inverse">
+			<ul class="nav nav-tabs nav-border-color nav-danger" id="myTab">
+				<div class="navbar-header"> <!-- Affichage correct sur mobile -->
+					<li><a class="navbar-brand" data-toggle="tab" href="#menu1">Accueil</a></li> <!-- Lien mis en avant -->
+				</div>
+				<li><a data-toggle="tab" href="#menu2">Qualités</a></li>
+				<li><a data-toggle="tab" href="#menu3">Parcours Professionnel</a></li>
+				<li><a data-toggle="tab" href="#menu4">Formation</a></li>
+				<li><a data-toggle="tab" href="#menu5">Loisir</a></li>
+				<form class="navbar-form navbar-right inline-form">
+      			<div class="form-group">
+        		<input type="search" class="input-sm form-control" placeholder="Recherche">
+        		<button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+      			</div>
+    		</form>
+			</ul>
+			
+		</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="javascript.js"></script> <!-- Liaison avec JavaScript -->
+</body>
+</html>
