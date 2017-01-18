@@ -18,3 +18,54 @@ form {
 
 input {
 	background-color: #CECECE;
+}
+
+#menu1 {
+	display: none;
+	animation: POP 1s;
+}
+
+#menu1:target {
+	display: block;
+}
+
+#menu2 {
+	display: none;
+	animation: POP 1s;
+}
+
+#menu2:target {
+	display: block;
+}
+
+#menu3 {
+	display: none;
+	animation: POP 1s;
+}
+
+#menu3:target {
+	display: block;
+}
+
+#menu4 {
+	display: none;
+	animation: POP 1s;
+}
+
+#menu4:target {
+	display: block;
+}
+
+#menu5 {
+	display: none;
+	animation: POP 1s;
+}
+
+#menu5:target {
+	display: block;
+}
+
+@keyframes POP{
+ 0%   { opacity: 0; }
+ 100% { opacity: 1; }
+}
